@@ -1,0 +1,106 @@
+body {
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 150px;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	background-color: white;
+	display: flex;
+	width: 80%;
+	margin: 0 auto ;
+	border-radius: 10px;
+	box-shadow: 0 0 20px #c8ecf5;
+}
+
+.left-side {
+	background-color: #060536;
+	color: white;
+	padding: 20px;
+	width: 35%;
+	text-align: center;
+	border-right: 5px solid #7bd4eb;
+	border-radius: 10px;
+
+}
+
+img {
+    width: 150px;
+	height: 150px;
+	margin-top: 10%;
+	border-radius: 50%;
+	border: 5px solid #7bd4eb;
+	margin-bottom: 20%;
+}
+
+h3 {
+	font-size: 18px;
+	padding: 2%;
+	margin: 20px 0 10px;
+	color: black;
+	border-radius: 10px;
+    box-shadow: 0 0 15px #7bd4eb;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+
+h1 {
+	font-size: 24px;
+	margin: 10px 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: fill round;
+	padding: 10;
+	margin: 10px 0;
+}
+
+.r-side {
+	padding: 20px;
+	width: 65%;
+
+}
+
+a {
+	color: black; /* Default color */
+	text-decoration: none; /* Underline remove karne ke liye */
+	transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for hover effects */
+  }
+  
+a:hover {
+	color: #007bff; /* Hover color (attractive blue shade) */
+	text-decoration: underline; /* Underline on hover */
+  }
+  
+  ul li {
+	margin: 5px 0;
+  }
+
+button {
+	font-family: Arial, sans-serif;
+	border-radius: 10px;
+	box-shadow: 0 0 15px black;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 10px;
+} 
+
+button:hover {
+	background-color: #9392d4;
+}
+
+.left-side {
+	color: white; /* White color for all text inside left-side */
+  }
+  
+  .left-side a {
+	color: white; /* White color for the links */
+  }
+  
+  .left-side a:hover {
+	color: #7bd4eb;
+  }
